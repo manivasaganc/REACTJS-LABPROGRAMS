@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum of Array using reduce()</title>
+</head>
+<body>
+    <h2>Find the Sum of an Array using reduce()</h2>
+
+    <button onclick="findSum()">Find Sum</button>
+
+    <p id="result"></p>
+
+    <script>
+        function findSum() {
+            // Array of numbers
+            const numbers = [10, 20, 30, 40, 50];
+
+            // Calculate sum using reduce()
+            const sum = numbers.reduce((accumlator,currentValue)=>accumlator + currentValue,0);
+
+            // Display the result
+            document.getElementById("result").innerHTML ="The sum of the array is :"+sum;
+                
+        }
+    </script>
+</body>
+</html>
