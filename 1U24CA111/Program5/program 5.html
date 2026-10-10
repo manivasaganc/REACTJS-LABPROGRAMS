@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter using map()</title>
+</head>
+<body>
+
+    <h2>Temperature Converter (Celsius to Fahrenheit)</h2>
+
+    <button onclick="convertTemperature()">Convert</button>
+
+    <h3>Result:</h3>
+    <div id="output"></div>
+
+    <script>
+        function convertTemperature() {
+
+            // Array of Celsius temperatures
+            const celsius = [0, 10, 20, 30, 40, 100];
+
+            // Convert to Fahrenheit using map()
+            const fahrenheit = celsius.map(temp => (temp * 9/5) + 32);
+
+            // Display the results
+            document.getElementById("output").innerHTML = fahrenheit.join("<br>");
+        }
+    </script>
+
+</body>
+</html>
