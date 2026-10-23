@@ -1,0 +1,1 @@
+console.assert(createMessage("Alice",20)==="Hello Alice! You are 20 years old.","Test1");console.assert(createMessage("John",18)==="Hello John! You are 18 years old.","Test2");console.assert(createMessage("Sara",25)==="Hello Sara! You are 25 years old.","Test3");console.log("All test cases passed!");
