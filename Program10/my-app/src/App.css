@@ -1,0 +1,49 @@
+.App{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 35vw;
+  padding: 20px;
+  background-color: aliceblue;
+  box-shadow: 2px 12px 12px gray;
+  cursor: pointer;
+}
+.App:hover{
+  transform: scale(1.2);
+}
+h1{
+  text-align: center;
+}
+
+#increment{
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+  background: green;
+  cursor: pointer;
+  border-radius:20px;
+  border: none;
+  color: whitesmoke;
+}
+#decrement{
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+   background: red;
+  cursor: pointer;
+  border-radius:20px;
+  border: none;
+  color: whitesmoke;
+}
+#reset{
+  margin-left:7vw;
+  width: 100px;
+  height: 30px;
+   background: blue;
+  cursor: pointer;
+  border-radius:20px;
+  border: none;
+  color: whitesmoke;
+}
